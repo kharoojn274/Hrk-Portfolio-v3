@@ -7,7 +7,7 @@
         <small class="s-color">Programming Languages and Tools</small>
         <div class="row">
         {% for competence in competences %}
-            <div class="col-4 col-lg-2 justify-content-center mt-3" data-toggle="modal" data-target=".competance-model-{{competence.id}}">
+            <div class="col-lg-2 col-sm-6 justify-content-center mt-3" data-toggle="modal" data-target=".competance-model-{{competence.id}}">
                     <div class="competence-card text-center mirror-face">
                         <div class="card-body">
                             <img class="competence-img" alt="{{competence.title}} logo" src="{{competence.image.url}}">
